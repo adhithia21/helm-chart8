@@ -1,7 +1,0 @@
-favorite:
-  drink: juice
-  food: pizza
-data: test
-
-image: nginx:alpine
-port: 80
