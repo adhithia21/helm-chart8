@@ -1,0 +1,40 @@
+name: Release Charts
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - uses: azure/setup-helm@v3
+
+      - name: Configure Git
+        run: |
+          git config user.name "adhithia"
+          git config user.email "adhithia@users.noreply.github.com"
+          ls
+
+      - name: Configure Git
+        run: |
+          helm package .
+          git checkout charts
+          HI=`ls | grep *tgz`
+          mv $HI charts/
+          helm repo index charts/
+          git remote rm origin
+          git add .
+          git commit -m "Update release $HI"
+          
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: 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
+          branch: charts
