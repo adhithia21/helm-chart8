@@ -23,3 +23,6 @@ spec:
             cpu: 65m
         ports:
         - containerPort: {{ .Values.port }}
+        envFrom:
+        - configMapRef:
+            name: {{ .Release.Name }}-config
