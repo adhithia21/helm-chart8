@@ -25,4 +25,4 @@ spec:
         - containerPort: {{ .Values.port }}
         envFrom:
         - configMapRef:
-          name: myapp-config
+          name: {{ .Release.Name }}-config
