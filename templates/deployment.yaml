@@ -23,3 +23,6 @@ spec:
             cpu: 50m
         ports:
         - containerPort: {{ .Values.port }}
+        envFrom:
+        - configMapRef:
+          name: myapp-config
