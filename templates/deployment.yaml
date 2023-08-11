@@ -16,13 +16,10 @@ spec:
         image: {{ .Values.image }}
         resources:
           limits:
-            memory: "256Mi"
-            cpu: "200m"
+            memory: "128Mi"
+            cpu: "100m"
           resources:
             memory: 64Mi
             cpu: 50m
         ports:
         - containerPort: {{ .Values.port }}
-        envFrom:
-        - configMapRef:
-          name: {{ .Release.Name }}-config
