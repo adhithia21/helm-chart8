@@ -2,8 +2,21 @@ apiVersion: v1
 entries:
   application:
   - apiVersion: v2
+    appVersion: "3.7"
+    created: "2023-08-11T06:16:53.874904831Z"
+    description: Belajar helm charts
+    digest: c84706ec492b54570a7e374575087622baeaf1597f702cdbdd3ca6247db32b28
+    maintainers:
+    - email: adhithia.irvan@gmail.com
+      name: Adhithia
+      url: https://adhithia.me
+    name: application
+    urls:
+    - application-3.7.0.tgz
+    version: 3.7.0
+  - apiVersion: v2
     appVersion: "3.6"
-    created: "2023-08-11T06:07:25.124810658Z"
+    created: "2023-08-11T06:16:53.858359194Z"
     description: Belajar helm charts
     digest: ee47493bf237e14bd987993ad6850396a23f6a4bbc782abc15d8981aeb10923e
     maintainers:
@@ -16,7 +29,7 @@ entries:
     version: 3.6.0
   - apiVersion: v2
     appVersion: "3.5"
-    created: "2023-08-11T06:07:25.111739719Z"
+    created: "2023-08-11T06:16:53.844371762Z"
     description: Belajar helm charts
     digest: 31d16d8d3823dffa7a925155221b8c3b052f9625f42dac4352f71fc2742409e5
     maintainers:
@@ -29,7 +42,7 @@ entries:
     version: 3.5.0
   - apiVersion: v2
     appVersion: "4.3"
-    created: "2023-08-11T06:07:25.097225153Z"
+    created: "2023-08-11T06:16:53.82769945Z"
     description: Belajar helm charts
     digest: 6a3d2c02b133de9b8ec9097f50064b27c796114f289d75c242dec13a4f369e4d
     maintainers:
@@ -42,7 +55,7 @@ entries:
     version: 3.4.0
   - apiVersion: v2
     appVersion: "3.3"
-    created: "2023-08-11T06:07:25.084662123Z"
+    created: "2023-08-11T06:16:53.81138625Z"
     description: Belajar helm charts
     digest: a52e8c55bf0651243e2528bdb0424d2329d762f1c536b7ce2a88bda76752aea0
     maintainers:
@@ -55,7 +68,7 @@ entries:
     version: 3.3.0
   - apiVersion: v2
     appVersion: "3.2"
-    created: "2023-08-11T06:07:25.075437155Z"
+    created: "2023-08-11T06:16:53.802214853Z"
     description: Belajar helm charts
     digest: 25478b21c1cf1c91b43859f394c47bfa13d1bb18962a57993cec6766f2c23674
     maintainers:
@@ -68,7 +81,7 @@ entries:
     version: 3.2.0
   - apiVersion: v2
     appVersion: "3.1"
-    created: "2023-08-11T06:07:25.070702168Z"
+    created: "2023-08-11T06:16:53.793882549Z"
     description: Belajar helm charts
     digest: 81c4ae0ed70fe96418451b40a245a35f889e1209ff80bfb979c45a92c2f21061
     maintainers:
@@ -81,7 +94,7 @@ entries:
     version: 3.1.0
   - apiVersion: v2
     appVersion: "3.0"
-    created: "2023-08-11T06:07:25.067949618Z"
+    created: "2023-08-11T06:16:53.790606321Z"
     description: Belajar helm charts
     digest: 46e47a3de19c4f3af3c0ee2ec0dc6fa5be27aeefd95badd4595f2f88c363367d
     maintainers:
@@ -94,7 +107,7 @@ entries:
     version: 3.0.0
   - apiVersion: v2
     appVersion: "2.0"
-    created: "2023-08-11T06:07:25.066273787Z"
+    created: "2023-08-11T06:16:53.788695296Z"
     description: Belajar helm charts
     digest: 73df3627d603239fafe75442fb1bf0b9d5d76ffaf245961203887200a38c19d1
     maintainers:
@@ -107,7 +120,7 @@ entries:
     version: 2.0.0
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2023-08-11T06:07:25.065087166Z"
+    created: "2023-08-11T06:16:53.78729087Z"
     description: Belajar helm charts
     digest: a401bd003bdc1496308107da55ef95754e11060ed6cea8899451d26e52ceadec
     maintainers:
@@ -118,4 +131,4 @@ entries:
     urls:
     - application-1.0.0.tgz
     version: 1.0.0
-generated: "2023-08-11T06:07:25.063833043Z"
+generated: "2023-08-11T06:16:53.786159704Z"
