@@ -3,7 +3,6 @@ kind: ConfigMap
 metadata:
   name: {{ .Release.Name }}-config
 data:
-  ui_enabled: "true"
   myvalue: "Hello World"
   {{- $data := .Values.data -}}
   {{- $relname := .Release.Name -}}
